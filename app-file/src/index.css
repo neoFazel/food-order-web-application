@@ -3,13 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
-  font-family: sans-serif;
   background: #fff;
+  font-size: 63.5%;
+  background-color: var(--white);
 }
-
-body {
-  margin: 0;
-  color: #3C4048;
+:root{
+  --red: #CF0A0A;
+  --lightred: #b14848;
+  --black: #000000;
+  --white: #EEEEEE;
+  --orange: #DC5F00;
 }
