@@ -25,6 +25,11 @@
     height: 60vh;
     object-fit: cover;
 }
+@media screen and (min-width: 1200px) {
+    .hero img{
+        height: 70vh;
+    }
+}
 .navbar .cart__btn{
     display: flex;
     cursor: pointer;

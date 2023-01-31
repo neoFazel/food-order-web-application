@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: var(--black);
+    font-weight: bold;
+}
+.underline{
+    width: 5rem;
+    height: 0.3rem;
+    background: var(--red);
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+section.meals{
+    width: 80vw;
+    margin: 1rem auto;
+}
+section.meals ul{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media screen and (min-width:620px){
+    section.meals ul{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        max-width: 900px;
+    }
+}

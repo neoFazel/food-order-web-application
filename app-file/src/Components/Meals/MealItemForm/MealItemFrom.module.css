@@ -1,0 +1,10 @@
+.input{
+    width: 4rem;
+}
+.item__btn{
+    padding: 0.3rem;
+    background: var(--lightred);
+    color: var(--white);
+    outline: none;
+    margin-top: 0.5rem;
+}

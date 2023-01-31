@@ -1,0 +1,24 @@
+.single__item{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+.single__item .desc__container{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.single__item .desc__container h2{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-right: 2px dotted var(--lightred);
+    padding-right: 0.2rem;
+}
+.single__item .desc__container .price{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
