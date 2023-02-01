@@ -4,12 +4,12 @@ import Hero from './Hero';
 import NavDescription from './NavDescription';
 import styles from './Nav.module.css'
 
-function Nav() {
+function Nav(props) {
   return (
     <navbar className={styles.nav}>
       <div className={styles.nav__container}>
         <Hero />
-        <Navbar />
+        <Navbar openCart={props.onOpenCart}/>
         <NavDescription />
         <div className={styles.overlay}></div>
       </div>

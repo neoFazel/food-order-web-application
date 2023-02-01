@@ -1,0 +1,40 @@
+.cart__info{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-top: 2px solid var(--red);
+    gap: 2rem;
+}
+.total__expens{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.btns{
+    display: flex;
+    justify-content: left;
+    gap: 0.5rem;
+}
+.btns button{
+    font-size: 1.4rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.btns .close__btn{
+    color: rgb(111, 111, 111);
+    border: 1px solid rgb(111, 111, 111);
+}
+.btns .checkout__btn{
+    border: 1px solid var(--blue);
+    background-color: var(--white);
+    color: var(--blue);
+}
+.btns .checkout__btn:hover{
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
+}
